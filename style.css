@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body
+{
+ background-image:url('matrix.gif'); background-repeat:repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fefbfb;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+.container .left-side
+{
+  position: relative;
+  background: #dfe0d177 ;
+  padding: 40px;
+  border-radius: 8px;
+}
+.profile-text
+{
+position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px  solid #000000;
+}
+.profile-text .imgx
+{
+position: relative;
+  width: 200 px;
+  height: 200 px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-text .p h2
+{
+
+  color: #58abf977;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.icon
+.profile-text h2 span
+{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contato
+{
+  padding-top: 40px;
+  align-items: center;
+}
+.titulo
+{
+  color: #5ba8fb;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contato ul
+{
+  position: relative;
+}
+.contato ul li
+{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contato ul li .icon
+{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #244c6b;
+}
+.contato ul li span
+{
+  color: #080808;
+}
+.contatoeducacional
+{
+border-top: 1px  solid #000000;
+}
+.contatoeducacional h5
+{
+  color: #6ba0d1
+}
+.contatoeducacional .lingua .porcentagem
+{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #322c2a;
+  display: block;
+  margin-top: 5px;
+}
+.contatoeducacional .lingua .porcentagem div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #b92d2d
+}
+.container .right-side
+{
+  position: relative;
+  background: #ffffff77 ;
+  padding: 40px;
+  border-radius: 8px;
+}
+.sobre
+{
+  margin-bottom: 50px;
+}
+.sobre: last-child
+{
+  margin-bottom: 0;
+}
+.titulo2
+{
+  color: #308acf
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+   font-weight: bold;
+  border-bottom: 1px  solid #000000; 
+}
+p
+{
+  color: #56a3f5
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px; 
+}
+.textoprofi
+{
+color: #2988e0
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.contatoeducacional2 .lingua2 .porcentagem2
+{
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background: #322c2a;
+  display: block;
+  margin-top: 5px;
+}
+.contatoeducacional2 .lingua2 .porcentagem2 div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #6370b0
+}
+.txt
+{
+  font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
